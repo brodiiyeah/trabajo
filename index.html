@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+programacion ---
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JUAN VARGAS</title>
+    <link rel="stylesheet" href=" css/master.css">
+  </head>
+  <body>
+    <!-- barra de navegacion--->
+    <nav>
+      <! contenedor logo --->
+      <div class="logo">
+        <a href="#">Brandix-evacreativo</a>
+      <!inicio de menu web--->
+      <div>
+      <ul class="nav-links">
+        <li><a href="#">home</a></li>
+        <li><a href="#">quien soy</a></li>
+        <li><a href="#">portafolio</a></li>
+        <li><a href="#">contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--- fin de menu web--->
+    <section class="home"></section>
+      <div class="text">
+        <p><h2>SOBRE MI</h2>
+          <p>soy estudiante de dise;o grafico trabajo, tengo dos mascotas
+          en mi tiempo libre entreno en el gimnnasio y veo series tambien
+        mi color favorito es el rojo.</p>
+        <!--- area de java-->
+        <script>
+          let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+        </script>
+
+      </div>
+  </body>
+</html>
